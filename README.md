@@ -3,7 +3,12 @@
 **projrc.nvim** is a Neovim plugin for loading project-specific configuration
 files in an extended exrc style. It searches for a `.nvim.lua` file in the
 parent directories of your current file, prompts you to confirm loading it, and
-persists your trust decisions across sessions.
+persists your trust decisions across sessions using Neovim’s built-in
+vim.secure trust mechanism.
+
+## Dependencies
+
+Requires Neovim 0.9.0 or later.
 
 ## Installation
 
